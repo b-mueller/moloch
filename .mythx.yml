@@ -1,0 +1,8 @@
+analyze:
+    async: true
+    create-group: true
+    solc: 0.5.3
+    remappings:
+    targets:
+        - contracts/Moloch.sol:Moloch
+        - contracts/MolochSummoner.sol:MolochSummoner
